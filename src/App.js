@@ -2,12 +2,12 @@ import "./App.css";
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer.js";
 import { Route, Routes } from "react-router-dom"
 // IMPORT PAGES
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About.js";
+import Projects from "./pages/Projects/Projects";
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
